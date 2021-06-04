@@ -1,0 +1,90 @@
+.contains
+{
+  background-image: url(images/bg-pattern-top-desktop.svg) no-repeat;
+}
+
+.header
+{
+  display: flex;
+}
+
+.text
+{
+  width: 40%;
+  margin: 5%;
+}
+.para
+{
+  font-family: 'Spartan', sans-serif;
+  color: hsl(300, 43%, 22%);
+  background: hsl(300, 24%, 96%);
+  border: 10px solid hsl(300, 24%, 96%);
+  border-radius: 10px;
+}
+
+.h1
+{
+  font-family: 'Spartan', sans-serif
+  color: hsl(300, 43%, 22%);
+  font-size: 2.5em;
+}
+
+.text
+{
+  width: 40%;
+}
+.header .text p
+{
+  font-family: 'Spartan', sans-serif;
+  color: hsl(300, 43%, 22%);
+}
+
+.footer
+{
+  display: flex;
+}
+
+.image-radius
+{
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.Colton-image, .Irene-image, .Anne-image
+{
+  display: flex;
+}
+
+span
+{
+  color: hsl(333, 80%, 67%);
+}
+
+.Colton-Smith, .Irene-Roberts, .Anne-Wallace
+{
+  font-family: 'Spartan', sans-serif;
+  color:  hsl(0, 0%, 100%);
+  background: hsl(300, 43%, 22%);
+  width: auto;
+  margin: 2%;
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width: 720px) {
+  .header
+  {
+    display: block;
+  }
+
+  .footer
+  {
+    display: block;
+  }
+
+  .text
+  {
+    width: auto;
+    margin: 5%;
+  }
+}
